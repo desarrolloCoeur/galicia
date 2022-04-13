@@ -3,7 +3,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 mb-4">
-                        <h2 class="mb-0 title">Contact Us <span class="title-border ml-4 pl-3"></span></h2>
+                        <h2 class="mb-0 title titulo">Contact Us <span class="title-border ml-4 pl-3"></span></h2>
                     </div>
                 </div>
                 <!-- end row -->

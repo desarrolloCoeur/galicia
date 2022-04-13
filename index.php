@@ -8,7 +8,7 @@ require_once("components/banner-index.php");
             <div class="container">
                 <div class="row">
                     <div class="col-12 mb-4">                        
-                        <h2 class="title">About Me <span class="title-border ml-4 pl-3"></span></h2>                        
+                        <h2 class="title titulo">Nosotros<span class="title-border ml-4 pl-3"></span></h2>                        
                     </div>
                 </div>
                 <!-- end row -->
@@ -21,23 +21,6 @@ require_once("components/banner-index.php");
                     </div>
 
                     <div class="col-md-7 offset-md-1 mt-4 pt-2">
-                        <dl class="row align-items-center about-content">
-                            <dt class="col-lg-3 col-md-4 col-6 font-weight-semibold"><i class="ri-gift-line align-middle pr-3 text-primary font-size-18"></i> Birthday</dt>
-                            <dd class="col-lg-9 col-md-8 col-6 text-muted mb-0"><span class="mr-xl-5 mr-4 font-weight-semibold">:</span>02. 06. 1988</dd>
-
-                            <dt class="col-lg-3 col-md-4 col-6 font-weight-semibold mt-xl-3 mt-2"><i class="ri-book-open-line align-middle pr-3 text-primary font-size-18"></i> Study</dt>
-                            <dd class="col-lg-9 col-md-8 col-6 text-muted mb-0 mt-xl-3 mt-2"><span class="mr-xl-5 mr-4 font-weight-semibold">:</span>Univercity of chicago</dd>
-
-                            <dt class="col-lg-3 col-md-4 col-6 font-weight-semibold mt-xl-3 mt-2"><i class="ri-earth-line align-middle pr-3 text-primary font-size-18"></i> Website</dt>
-                            <dd class="col-lg-9 col-md-8 col-6 text-muted mb-0 mt-xl-3 mt-2"><span class="mr-xl-5 mr-4 font-weight-semibold">:</span>www.dummy.com</dd>
-
-                            <dt class="col-lg-3 col-md-4 col-6 font-weight-semibold mt-xl-3 mt-2"><i class="ri-game-line align-middle pr-3 text-primary font-size-18"></i> Interest</dt>
-                            <dd class="col-lg-9 col-md-8 col-6 text-muted mb-0 mt-xl-3 mt-2"><span class="mr-xl-5 mr-4 font-weight-semibold">:</span>Reading, Playstation</dd>
-
-                            <dt class="col-lg-3 col-md-4 col-6 font-weight-semibold mt-xl-3 mt-2"><i class="ri-map-pin-line align-middle pr-3 text-primary font-size-18"></i> Location</dt>
-                            <dd class="col-lg-9 col-md-8 col-6 text-muted mb-0 mt-xl-3 mt-2"><span class="mr-xl-5 mr-4 font-weight-semibold">:</span>4610 Riverwood Drive</dd>
-                        </dl>
-
                         <div class="row">
                             <div class="col-12 pt-xl-5 pt-3">
                                 <h6 class="font-weight-semibold">I'm Eva and Visual designer</h6>
@@ -60,7 +43,7 @@ require_once("components/banner-index.php");
             <div class="container">
                 <div class="row">
                     <div class="col-12 mb-4">
-                        <h2 class="title">What I Do <span class="title-border ml-4 pl-3"></span></h2>
+                        <h2 class="title titulo">Proyectos <span class="title-border ml-4 pl-3"></span></h2>
                     </div>
                 </div>
                 <!-- end row -->
@@ -109,7 +92,7 @@ require_once("components/banner-index.php");
             <div class="container">
                 <div class="row">
                     <div class="col-12 mb-4">
-                        <h2 class="mb-0 title">Creative Works <span class="title-border ml-4 pl-3"></span></h2>
+                        <h2 class="mb-0 title titulo">Amenidades <span class="title-border ml-4 pl-3"></span></h2>
                     </div>
                 </div>
                 <!-- end row -->
@@ -196,7 +179,7 @@ require_once("components/banner-index.php");
             <div class="container">
                 <div class="row">
                     <div class="col-12 mb-4">
-                        <h2 class="title">My Blog <span class="title-border ml-4 pl-3"></span></h2>
+                        <h2 class="title titulo">Ubicación<span class="title-border ml-4 pl-3"></span></h2>
                     </div>
                 </div>
                 <!-- end row -->

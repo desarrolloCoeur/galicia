@@ -2,20 +2,25 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <title>Bayota - Responsive Personal Tamplate</title>
+        <title>Galicia Residencial</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="Premium Bootstrap 4 Personal Template" />
-        <meta name="keywords" content="bootstrap 4, premium, marketing, multipurpose" />
+        <meta name="description" content="" />
+        <meta name="keywords" content="galicia, recidencial, compostela" />
         <meta content="Themesdesign" name="author" />
+        <meta property="og:site_name" content="Galicia Residencial" />
+        <meta name="og:description" content="" />
+        <meta property="og:image" itemprop="image" content="https://coeurmkt.com/galicia/images/.jpg"/>
+        <meta property="og:type" content="website" />
+        <meta property="og:updated_time" content="1440432930" /> 
 
         <!--favicon-->
-        <link rel="shortcut icon" href="images/favicon.ico" />
+        <link rel="shortcut icon" href="images/favicon.png" type="image/png"/>
 
         <!-- remix icon -->
         <link rel="stylesheet" type="text/css" href="css/remixicon.css">
 
         <!-- css -->
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="css/style.min.css" rel="stylesheet" type="text/css" />
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
     </head>
     <body>

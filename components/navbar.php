@@ -2,38 +2,34 @@
 <nav class="navbar navbar-expand-lg fixed-top navbar-dark sticky">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img src="images/logo-light.png" alt="" class="logo-light" height="22" />
-                    <img src="images/logo-dark.png" alt="" class="logo-dark" height="22" />
+                    <img src="images/logo-blanco.png" alt="" class="logo-light" height="80" />
+                    <img src="images/logo.png" alt="" class="logo-dark" height="80" />
                 </a>
                 <a href="javascript:void(0);" class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggle-icon"><i class="ri-menu-line"></i></span>
                 </a>
 
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav mx-auto">
+                    <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#home">Home</a>
+                            <a class="nav-link" href="#home">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
+                            <a class="nav-link" href="#about">Nosotros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#service">Service</a>
+                            <a class="nav-link" href="#service">Proyectos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                            <a class="nav-link" href="#portfolio">Amenidades</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#blog">Blog</a>
+                            <a class="nav-link" href="#blog">Ubicación</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
+                            <a class="nav-link" href="#contact">Contacto</a>
                         </li>
                     </ul>
-
-                    <a href="#" class="btn btn-sm nav-btn btn-outline-primary my-lg-0 my-2">                        
-                        Download CV <span><i class="ri-download-line px-1"></i></span>                       
-                    </a>
                 </div>
             </div>
         </nav>

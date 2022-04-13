@@ -17,6 +17,13 @@
 10.contact
 11.footer
 ***********************/
+.titulo{
+  text-align: center;
+}
+.navbar-collapse{
+  flex-direction: row-reverse;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 a {
   text-decoration: none !important;
@@ -182,7 +189,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   top: 50%;
   transform: translate(-50%);
-  background-color: #ff4d41;
+  background-color: #c5a805;
   height: 2px;
   width: 34px;
 }
@@ -227,19 +234,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-primary {
-  background-color: #ff4d41;
-  border: 1px solid #ff4d41 !important;
+  background-color: #c5a805;
+  border: 1px solid #c5a805 !important;
   color: #ffffff;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
   background-color: transparent !important;
-  color: #ff4d41 !important;
+  color: #c5a805 !important;
 }
 
 .btn-outline-primary {
   background-color: transparent !important;
-  border: 1px solid #ff4d41 !important;
+  border: 1px solid #c5a805 !important;
   color: #ff4d41 !important;
 }
 
@@ -438,11 +445,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar .navbar-nav .nav-item .nav-link:hover, .navbar .navbar-nav .nav-item .nav-link:focus {
-  color: #ff4d41;
+  color: #D4AF37;
 }
 
 .navbar .navbar-nav .nav-item.active .nav-link {
-  color: #ff4d41 !important;
+  color: #D4AF37 !important;
 }
 
 .navbar .navbar-nav .nav-item:last-child .nav-link {
@@ -468,7 +475,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-sticky .nav-item .nav-link:hover, .nav-sticky .nav-item .nav-link:focus, .nav-sticky .nav-item .nav-link.active {
-  color: #ff4d41 !important;
+  color: #D4AF37 !important;
 }
 
 .nav-sticky .navbar-brand .logo-dark {
