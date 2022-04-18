@@ -17,8 +17,20 @@
 10.contact
 11.footer
 ***********************/
+.separador{
+  display: flex;
+  margin: 0 auto;
+  width: 50px;
+}
+.contenedor{
+  display: flex;
+}
+.text-proyect{
+  font-size: 1.3rem;
+}
 .titulo{
   text-align: center;
+  font-size: 2.5rem;
 }
 .navbar-collapse{
   flex-direction: row-reverse;

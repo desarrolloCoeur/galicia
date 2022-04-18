@@ -8,32 +8,44 @@ require_once("components/banner-index.php");
             <div class="container">
                 <div class="row">
                     <div class="col-12 mb-4">                        
-                        <h2 class="title titulo">Nosotros<span class="title-border ml-4 pl-3"></span></h2>                        
+                        <img class="separador" src="images/separador.png" alt="">                       
+                        <h2 class="title titulo">El Proyecto<span></span></h2> 
                     </div>
                 </div>
                 <!-- end row -->
                 <div class="row">
-                    <div class="col-md-4 mt-4 pt-2">
-                        <div class="about-border position-relative">
-                            <img class="img-fluid rounded about-img" src="images/aboutme.jpg" alt="" />
-                            <img class="img-fluid about-dot d-none d-lg-block" src="images/dot.png" alt="" />
-                        </div>
+                    <div class="col-md-12">
+                        <p class="text-muted text-proyect">
+                            Desarrollo ubicado sobre la carretera 200, <strong>en el km 38 Compostela - Chapalilla</strong>, a un costado de la entrada principal a la carretera Compostela - Guadalajara que contará con 190 terrenos de 90 m2 y las mejores amenidades ofreciendo una <strong>excelente calidad de vida.</strong>
+                        </p>
                     </div>
+                </div>
+                <!-- end row -->
+                <div class="row">
+                    <div class="contenedor">
+                        <div class="col-md-4 mt-4 pt-2">
+                            <div class="aposition-relative">
+                                <img class="img-fluid rounded about-img" src="images/fachada2.jpg" alt="" />
+                            </div>
+                        </div>
 
-                    <div class="col-md-7 offset-md-1 mt-4 pt-2">
-                        <div class="row">
-                            <div class="col-12 pt-xl-5 pt-3">
-                                <h6 class="font-weight-semibold">I'm Eva and Visual designer</h6>
-                                <p class="text-muted mt-xl-3 mt-2">
-                                    Hi! My name is Eva Rouse. I am a Web Developer, and I'm very passionate and dedi my work. With 20 years experience as a professional
-                                </p>
-    
-                                <a href="#" class="btn btn-primary mt-3">Hire Me</a>
+                        <div class="col-md-7 offset-md-1 mt-4 pt-2">
+                            <div class="row">
+                                <div class="col-12 pt-xl-3 pt-3">
+                                    <p class="terrenos">
+                                        <strong>Terrenos de 90 m2 <br> Precios</strong>
+                                    </p>
+                                    <p class="precios">
+                                        1 mes - $270,000 <br>
+                                        3 meses - $285,000 <br>
+                                        6 meses - 300,000 
+                                    </p>
+                                    <p class="cambios">Los precios están sujetos a cambios.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- end row -->
             </div>
         </section>
         <!-- about us end -->
