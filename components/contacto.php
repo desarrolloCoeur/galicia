@@ -1,9 +1,9 @@
 <!-- contact us start -->
-        <section class="section" id="contact">
+<section class="section" id="contact">
             <div class="container">
                 <div class="row">
                     <div class="col-12 mb-4">
-                        <h2 class="mb-0 title titulo">Contact Us <span class="title-border ml-4 pl-3"></span></h2>
+                        <h2 class="mb-0 title titulo"><span class="title-border mr-4 pr-3"></span>Contáctanos<span class="title-border ml-4 pl-3"></span></h2>
                     </div>
                 </div>
                 <!-- end row -->
@@ -14,12 +14,12 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group mb-4">
-                                        <input type="text" class="form-control" placeholder="NAME" id="name" />
+                                        <input type="text" class="form-control" placeholder="NOMBRE" id="name" />
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group mb-4">
-                                        <input type="email" class="form-control" placeholder="EMAIL" id="email" />
+                                        <input type="email" class="form-control" placeholder="CORREO" id="email" />
                                     </div>
                                 </div>
                             </div>
@@ -27,7 +27,7 @@
                             <div class="row">
                                 <div class="col-12">
                                     <div class="form-group mb-4">
-                                        <input type="text" class="form-control" placeholder="SUBJECT"  id="subject"/>
+                                        <input type="text" class="form-control" placeholder="ASUNTO"  id="subject"/>
                                     </div>
                                 </div>
                             </div>
@@ -35,12 +35,12 @@
                             <div class="row">
                                 <div class="col-12">
                                     <div class="form-group mb-4">
-                                        <textarea class="form-control" placeholder="MESSAGE" rows="5" id="comments"></textarea>
+                                        <textarea class="form-control" placeholder="MENSAJE" rows="5" id="comments"></textarea>
                                     </div>
                                 </div>
                             </div>
                             <!-- end row -->
-                            <input type="submit" id="submit" name="send" class="btn btn-primary" value="Send message" />
+                            <input type="submit" id="submit" name="send" class="btn btn-primary" value="ENVIAR MENSAJE" />
                         </form>
                     </div>
                 </div>

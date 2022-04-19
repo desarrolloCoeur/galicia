@@ -9,7 +9,7 @@ require_once("components/banner-index.php");
                 <div class="row">
                     <div class="col-12 mb-4">                        
                         <img class="separador" src="images/separador.png" alt="">                       
-                        <h2 class="title titulo">El Proyecto<span></span></h2> 
+                        <h2 class="title titulo"><span class="title-border mr-4 pr-3"></span> El Proyecto<span class="title-border ml-4 pl-3"></span></h2> 
                     </div>
                 </div>
                 <!-- end row -->
@@ -55,7 +55,7 @@ require_once("components/banner-index.php");
             <div class="container">
                 <div class="row">
                     <div class="col-12 mb-4">
-                        <h2 class="title titulo">Proyectos <span class="title-border ml-4 pl-3"></span></h2>
+                        <h2 class="title titulo"><span class="title-border mr-4 pr-3"></span> Proyectos <span class="title-border ml-4 pl-3"></span></h2>
                     </div>
                 </div>
                 <!-- end row -->
@@ -256,6 +256,14 @@ require_once("components/banner-index.php");
             </div>
         </section>
         <!-- my blog end -->
+        <!-- parallax -->
+        <section class="section parallax mt-5" id="parallax1">
+            <div class="bg-overlay-2"></div>
+            <div class="container text-center">
+                <h2>¿Por qué invertir en Galicia Residencial?</h2>
+                <p><h6>Plusvalía - Ubicación Estratégica - Amenidades - Crecimiento de la Región.</h6></p>
+            </div>
+        </section>
 <?php
 require_once("components/contacto.php");
 require_once("components/footer.php");
