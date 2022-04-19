@@ -32,24 +32,67 @@ Apto cafe : #59291E
   font-family: "Aftika";
   src: url("../fonts/Aftika/Aftika.ttf") format("opentype");
 }
+.ameni{
+  font-size: 1rem;
+  font-family: "Aftika";
+  color: white;
+  text-align: center;
+}
+.disfruta{
+  font-size: 2rem;
+  text-align: center;
+  font-family: "Aftika";
+  color: #DCA243;
 
+}
+.descrip-disfrutas{
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Aftika";
+  color: white;
+  padding-bottom: 1.5rem;
+}
+.card{
+  display: flex;
+  margin: 0 auto;
+}
+.estrella{
+  width: 70px;
+  margin: 0 auto;
+  display: flex;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+.cambios{
+  font-size: 1.25rem;
+  font-family: "Aftika";
+}
+.precios{
+  font-size: 1.25rem;
+  font-family: "Aftika";
+}
 
+.terrenos{
+  font-size: 1.35rem;
+  text-align: center;
+  font-family: "Aftika";
+}
 .separador{
   display: flex;
   margin: 0 auto;
-  width: 50px;
+  width: 65px;
 }
 .contenedor{
   display: flex;
 }
 .text-proyect{
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 .titulo{
   font-family: "Albra" !important;
   color: #344582;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 .navbar-collapse{
   flex-direction: row-reverse;
@@ -144,7 +187,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .text-muted {
-  color: #9090a0 !important;
+  color: #535353 !important;
+  text-align: justify;
+  font-family: "Aftika";
 }
 
 .bg-muted {
@@ -247,7 +292,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 576px) {
   .title {
-    font-size: 1.6rem;
+    font-size: 3rem;
   }
 }
 

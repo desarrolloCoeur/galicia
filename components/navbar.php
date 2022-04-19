@@ -15,10 +15,7 @@
                             <a class="nav-link" href="#home">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#about">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#service">Proyectos</a>
+                            <a class="nav-link" href="#about">Proyecto</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#portfolio">Amenidades</a>
