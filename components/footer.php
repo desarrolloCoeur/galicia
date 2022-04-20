@@ -5,7 +5,7 @@
             </div>
         </section>   
        <!-- footer start -->
-        <footer class="footer" style="background-color: #2A2828;">
+        <footer class="footer" style="background-color: #344582;">
             <div class="container">
                 <div class="row py-sm-4 py-3">
                     <div class="col-lg-4 col-md-3 text-white mt-4">
@@ -22,7 +22,7 @@
                             </li>
                            
                             <li class="list-inline d-inline-block social-list">
-                                <a class="list-inline-item rounded mr-2 social-link" href="#"><i class="ri-instagram-fill"></i></a>
+                                <a class="list-inline-item rounded mr-2 social-link" href="https://www.instagram.com/galiciaresidencial4/"><i class="ri-instagram-fill"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -33,14 +33,14 @@
         <!-- end footer -->
 
         <!-- footer-alter start -->
-        <section class="py-3" style="background-color: #999;color: #fff;">
+        <section class="py-3" style="background-color: #ffffff;">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-md-6">
-                        <p class="text-white mb-0">2022 © Coeur.</p>
+                        <p class="text-blue mb-0"><span class="title-border2 mr-4 pr-3"></span>2022 © Coeur.<span class="title-border2 ml-4 pl-3"></span></p>
                     </div>
                     <div class="col-lg-4 offset-lg-4 col-md-6 text-md-right">
-                        <p class="text-white mb-0">Creado por <a href="https://coeurmkt.com/">Coeur</a>
+                        <p class="text-blue mb-0"><span class="title-border2 mr-4 pr-3"></span>Creado por <a href="https://coeurmkt.com/">Coeur<span class="title-border2 ml-4 pl-3"></span></a>
                     </div>
                 </div>
                 <!-- end row -->

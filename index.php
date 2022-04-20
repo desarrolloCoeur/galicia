@@ -120,73 +120,19 @@ require_once("components/banner-index.php");
         </section>
         <!-- creative works end -->
 
-        <!-- my blog -->
-        <section class="section bg-light" id="blog">
-            <div class="container-fluid">
+        <!-- Ubicacion -->
+        <section class="section pb-5 bg-info" id="ubicacion">
+            <div class="bg-overlay-3" ></div>
+            <!-- <div style="position:absolute;top:0;left:0;right:0;bottom:0;background-color:#000000aa;"></div> -->
+            <div class="container">
                 <div class="row">
-                    <div class="col-12 mb-4">
-                        <h2 class="title titulo"><span class="title-border mr-4 pr-3"></span>Ubicación<span class="title-border ml-4 pl-3"></span></h2>
+                    <div class="col-12 mb-5" data-aos="fade-right">                        
+                        <h2 class="title titulo text-white">Ubicación</h2>
                     </div>
                 </div>
-                <!-- end row -->
-                <div class="row">
-                    <div class="col-xl-5 col-md-6 col-12 mt-4 pt-2">
-                        <div class="media blog-box">
-                            <div class="bg-white rounded text-center date-box p-3 mr-4">
-                                <h2 class="font-weight-lighter mb-0">25</h2>
-                                <p class="font-size-15 text-muted text-uppercase font-weight-medium mb-0">June</p>
-                            </div>
-                            <div class="media-body">
-                                <p class="font-size-13 text-muted text-uppercase font-weight-medium mb-2">branding</p>
-                                <h4 class="font-size-18 mb-3"><a class="text-dark" href="#">The Unwritten Rules of Naming...</a></h4>
-                                <p class="text-muted mt-2 mb-0">Nemo enim ipsam voluptatem quia voluptas quia voluptas magni dolores.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-5 offset-xl-2 col-md-6 col-12 mt-4 pt-2">
-                        <div class="media blog-box active">
-                            <div class="bg-white rounded text-center date-box p-3 mr-4">
-                                <h2 class="font-weight-lighter mb-0">08</h2>
-                                <p class="font-size-15 text-muted text-uppercase font-weight-medium mb-0">Aug</p>
-                            </div>
-                            <div class="media-body">
-                                <p class="text-uppercase font-size-13 text-muted font-weight-medium mb-2">development</p>
-                                <h4 class="font-size-18 mb-3"><a class="text-dark" href="#">The Unwritten Rules of Naming...</a></h4>
-                                <p class="text-muted mt-2 mb-0">Nemo enim ipsam voluptatem quia voluptas quia voluptas magni dolores.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-5 col-md-6 col-12 mt-4 pt-2">
-                        <div class="media blog-box">
-                            <div class="bg-white rounded date-box text-center p-3 mr-4">
-                                <h2 class="font-weight-lighter mb-0">05</h2>
-                                <p class="font-size-15 text-muted text-uppercase font-weight-medium mb-0">May</p>
-                            </div>
-                            <div class="media-body">
-                                <p class="text-uppercase font-size-13 text-muted font-weight-medium mb-2">business</p>
-                                <h4 class="font-size-18 mb-3"><a class="text-dark" href="#">The Unwritten Rules of Naming...</a></h4>
-                                <p class="text-muted mt-2 mb-0">Nemo enim ipsam voluptatem quia voluptas quia voluptas magni dolores.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-5 offset-xl-2 col-md-6 col-12 mt-4 pt-2">
-                        <div class="media blog-box">
-                            <div class="bg-white rounded date-box text-center p-3 mr-4">
-                                <h2 class="font-weight-lighter mb-0">03</h2>
-                                <p class="font-size-15 text-muted text-uppercase font-weight-medium mb-0">jun</p>
-                            </div>
-                            <div class="media-body">
-                                <p class="font-size-13 text-muted text-uppercase font-weight-medium mb-2">branding</p>
-                                <h4 class="font-size-18 mb-3"><a class="text-dark" href="#">The Unwritten Rules of Naming...</a></h4>
-                                <p class="text-muted mt-2 mb-0">Nemo enim ipsam voluptatem quia voluptas quia voluptas magni dolores.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- end row -->
+                <img class="img-fluid2" src="images/ubicaciones_galicia.jpg" alt="Ubicaciones de Galicia Residencial " data-aos="fade-down">
+                <!-- <a class="image-link" href="images/ubicaciones_galicia.jpg">
+                </a> -->
             </div>
         </section>
         <!-- my blog end -->
