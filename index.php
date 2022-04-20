@@ -7,24 +7,24 @@ require_once("components/banner-index.php");
         <section class="section" id="about">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 mb-4">                        
+                    <div class="col-12 mb-4" data-aos="fade-up">                        
                         <img class="separador" src="images/separador.png" alt="">                       
                         <h2 class="title titulo"><span class="title-border mr-4 pr-3"></span> El Proyecto<span class="title-border ml-4 pl-3"></span></h2> 
                     </div>
                 </div>
                 <!-- end row -->
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-12" data-aos="fade-up">
                         <p class="text-muted text-proyect">
-                            Desarrollo ubicado sobre la carretera 200, <strong>en el km 38 Compostela - Chapalilla</strong>, a un costado de la entrada principal a la carretera Compostela - Guadalajara que contará con 190 terrenos de 90 m2 y las mejores amenidades ofreciendo una <strong>excelente calidad de vida.</strong>
+                            Desarrollo ubicado sobre la carretera 200, <strong>en el km 38 Compostela - Chapalilla,</strong> a un costado de la entrada principal a la carretera Compostela - Guadalajara que contará con 190 terrenos de 90 m2 y las mejores amenidades ofreciendo una <strong>excelente calidad de vida.</strong>
                         </p>
                     </div>
                 </div>
-                <div class="estrella">
+                <div class="estrella" data-aos="fade-up">
                     <img src="images/estrella-galicia.svg" alt="">
                 </div>
                 <!-- end row -->
-                <div class="contenedor">
+                <div class="contenedor" data-aos="fade-right">
                     <div class="row">
                         <div class="col-12 col-lg-6 col-md-6 mt-4 pt-2">
                             <img class="img-fluid rounded about-img" src="images/fachada2.jpg" alt="" />
@@ -32,7 +32,7 @@ require_once("components/banner-index.php");
                             </div>
                         </div>
 
-                        <div class="col-12 col-lg-6 col-md-6 mt-4 pt-2 text-center">
+                        <div class="col-12 col-lg-6 col-md-6 mt-4 pt-2 text-center" data-aos="fade-left">
                             <p class="terrenos">
                                 <strong>Terrenos de 90 m2 <br> Precios</strong>
                             </p>
@@ -121,12 +121,12 @@ require_once("components/banner-index.php");
         <!-- creative works end -->
 
         <!-- Ubicacion -->
-        <section class="section pb-5 bg-info" id="ubicacion">
+        <section class="section pb-5 pt-5 bg-info" id="ubicacion">
             <div class="bg-overlay-3" ></div>
             <!-- <div style="position:absolute;top:0;left:0;right:0;bottom:0;background-color:#000000aa;"></div> -->
             <div class="container">
                 <div class="row">
-                    <div class="col-12 mb-5" data-aos="fade-right">                        
+                    <div class="col-12 mb-5" data-aos="fade-down">                        
                         <h2 class="title titulo text-white">Ubicación</h2>
                     </div>
                 </div>
@@ -137,13 +137,19 @@ require_once("components/banner-index.php");
         </section>
         <!-- my blog end -->
         <!-- parallax -->
-        <section class="section parallax mt-5" id="parallax1">
+        <section class="section parallax mt-0" id="parallax1">
             <div class="bg-overlay-2"></div>
             <div class="container text-center">
                 <h2>¿Por qué invertir en Galicia Residencial?</h2>
                 <p><h6>Plusvalía - Ubicación Estratégica - Amenidades - Crecimiento de la Región.</h6></p>
             </div>
         </section>
+         <!-- WhatsApp -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <a href="https://wa.me/3111417959" class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+        </a>
+  
 <?php
 require_once("components/contacto.php");
 require_once("components/footer.php");

@@ -2,12 +2,12 @@
 <section class="section" id="contact">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 mb-4">
+                    <div class="col-12 mb-4" data-aos="fade-up">
                         <h2 class="mb-0 title titulo"><span class="title-border mr-4 pr-3"></span>Contáctanos<span class="title-border ml-4 pl-3"></span></h2>
                     </div>
                 </div>
                 <!-- end row -->
-                <div class="row">
+                <div class="row" data-aos="fade-up">
                     <div class="col-12 mt-4 pt-2">
                         <form method="post" name="myForm" onsubmit="return validateForm()">
                             <p id="error-msg"></p>
@@ -40,7 +40,7 @@
                                 </div>
                             </div>
                             <!-- end row -->
-                            <input type="submit" id="submit" name="send" class="btn btn-primary" value="ENVIAR MENSAJE" />
+                            <input type="submit" id="submit" name="send" class="btn btn-primary" data-aos="fade-right" value="ENVIAR MENSAJE" />
                         </form>
                     </div>
                 </div>

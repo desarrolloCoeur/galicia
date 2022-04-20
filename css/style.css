@@ -59,31 +59,30 @@ Apto cafe : #59291E
 .card{
   border: 2px solid #DCA243;
 }
+
 .estrella{
-  width: 70px;
+  width: 60px;
   margin: 0 auto;
   display: flex;
-  padding-bottom: 2rem;
-  padding-top: 2rem;
+  padding-bottom: 5rem;
+  padding-top: 0rem;
 }
 .cambios{
   font-size: 1.25rem;
-  font-family: "Aftika";
 }
 .precios{
-  font-size: 1.25rem;
-  font-family: "Aftika";
+  font-size: 1.5rem;
 }
-
 .terrenos{
-  font-size: 1.35rem;
+  font-size: 1.5rem;
   text-align: center;
-  font-family: "Aftika";
+  color: #535353;
 }
 .separador{
   display: flex;
   margin: 0 auto;
   width: 65px;
+  margin-bottom: 20px;
 }
 .contenedor{
   display: flex;
