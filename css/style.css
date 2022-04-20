@@ -32,6 +32,10 @@ Apto cafe : #59291E
   font-family: "Aftika";
   src: url("../fonts/Aftika/Aftika.ttf") format("opentype");
 }
+.amenidades{
+  display: flex;
+  justify-content: center;
+}
 .ameni{
   font-size: 1rem;
   font-family: "Aftika";
@@ -53,8 +57,7 @@ Apto cafe : #59291E
   padding-bottom: 1.5rem;
 }
 .card{
-  display: flex;
-  margin: 0 auto;
+  border: 2px solid #DCA243;
 }
 .estrella{
   width: 70px;
@@ -647,6 +650,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero-1 {
+  background-color: #fff !important;
+  background-image: url("../images/fachada2.jpg");
+  filter: brightness(1);
   height: 100vh;
   background-size: cover;
   background-position: center;

@@ -53,19 +53,19 @@ require_once("components/banner-index.php");
         </section>
         <!-- about us end -->
 
-        <!-- creative works start -->
-        <section class="section" id="portfolio">
-            <div class="container-fluid" style="background:color:blue;">
+        <!-- Amenidades -->
+        <section class="section" id="portfolio" style="padding-top: 0rem; background: #344582;">
+            <div class="container" style=";">
                 <div class="row">
                     <div class="col-12 mb-4">
-                        <h2 class="mb-0 title titulo"><span class="title-border mr-4 pr-3"></span>Amenidades <span class="title-border ml-4 pl-3"></span></h2>
+                        <h2 class="mb-0 title titulo" style="color: #fff; padding-top: 2rem;"><span class="title-border mr-4 pr-3"></span>Amenidades <span class="title-border ml-4 pl-3"></span></h2>
                     </div>
                 </div>
                 <!-- end row -->
 
-                <div class="row">
+                <div class="row amenidades">
                     <div clas="col-6 col-lg-6 col-md-6">
-                        <!-- <img class="img-fluid" stye="width:100px;" src="images/La Coruña.jpg" alt=""> -->
+                        <img class="img-fluid" style="width: 380px;" src="images/La Coruña.jpg" alt="">
                     </div>
                     <div class="col-6 col-lg-6 col-md-6">
                         <div class="card" style="width: 30rem;">
