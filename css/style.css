@@ -69,9 +69,11 @@ Apto cafe : #59291E
 }
 .cambios{
   font-size: 1.25rem;
+  color: #535353;
 }
 .precios{
   font-size: 1.5rem;
+  color: #535353;
 }
 .terrenos{
   font-size: 1.5rem;
@@ -1217,5 +1219,24 @@ h1, h2, h3, h4, h5, h6 {
   .text-proyect {
     font-size: 1.1rem;
   }
+  .titulo{
+    font-size: 2.5rem;
+  }
+  .disfruta{
+    font-size: 1.6.0rem;
+  }
+  .descrip-disfrutas{
+    font-size: 1.4rem;
+  }
+  .terrenos{
+    font-size: 1.4rem;
+  }
+  .cambios{
+    font-size: 1.4rem;
+  }
+  .precios{
+    font-size: 1.3rem;
+  }
+
 }
 /*# sourceMappingURL=style.css.map */

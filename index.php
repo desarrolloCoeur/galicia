@@ -4,8 +4,8 @@ require_once("components/navbar.php");
 require_once("components/banner-index.php");
 
 $texto1 = "El Proyecto";
-$texto2 = "Desarrollo ubicado sobre la carretera 200,";
-$texto3 = "en el km 38 Compostela - Chapalilla,";
+$texto2 = "Desarrollo ubicado sobre la carretera 200, ";
+$texto3 = "en el km 38 Compostela - Chapalilla, ";
 $texto4 = "a un costado de la entrada principal a la carretera Compostela - Guadalajara que contará con 190 terrenos de 90 m2 y las mejores amenidades ofreciendo una ";
 $texto5 = "excelente calidad de vida.";
 $texto6 = "Terrenos de 90 m2 ";
@@ -84,17 +84,17 @@ $texto26 = "Plusvalía - Ubicación Estratégica - Amenidades - Crecimiento de l
         <section class="section" id="portfolio" style="padding-top: 0rem; background: #344582;">
             <div class="container" style=";">
                 <div class="row">
-                    <div class="col-12 mb-4">
+                    <div class="col-12 mb-4" data-aos="fade-up">
                         <h2 class="mb-0 title titulo" style="color: #fff; padding-top: 2rem;"><span class="title-border mr-4 pr-3"></span><?php echo $texto12; ?> <span class="title-border ml-4 pl-3"></span></h2>
                     </div>
                 </div>
                 <!-- end row -->
 
                 <div class="row amenidades">
-                    <div clas="col-12 col-lg-6 col-md-6">
+                    <div clas="col-12 col-lg-6 col-md-6" data-aos="fade-up">
                         <img class="img-fluid" style="width: 380px;" src="images/La Coruña.jpg" alt="">
                     </div>
-                    <div class="col-12 col-lg-6 col-md-6">
+                    <div class="col-12 col-lg-6 col-md-6" data-aos="fade-up">
                         <div class="card">
                             <div class="card-body" style="background-color: #344582;">
                                 <h5 class="card-title disfruta"><?php echo $texto13; ?></h5>
