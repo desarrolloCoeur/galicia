@@ -1,3 +1,8 @@
+<!-- Loader -->
+<div class="preloader">
+    <img src="images/spinningwheel.gif" alt=""/>
+</div>
+<!-- Loader -->
 <!--navbar start-->
 <nav class="navbar navbar-expand-lg fixed-top navbar-dark sticky">
             <div class="container">
