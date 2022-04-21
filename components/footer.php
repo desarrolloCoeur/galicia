@@ -1,3 +1,6 @@
+<?php
+$texto1 = "Creado por";
+?>
         <!-- maps -->
         <section class="section p-0">
             <div class="container-fluid p-0" data-aos="fade-up">
@@ -40,7 +43,7 @@
                         <p class="text-blue mb-0"><span class="title-border2 mr-4 pr-3"></span>2022 © Coeur.<span class="title-border2 ml-4 pl-3"></span></p>
                     </div>
                     <div class="col-lg-4 offset-lg-4 col-md-6 text-md-right">
-                        <p class="text-blue mb-0"><span class="title-border2 mr-4 pr-3"></span>Creado por <a href="https://coeurmkt.com/">Coeur<span class="title-border2 ml-4 pl-3"></span></a>
+                        <p class="text-blue mb-0"><span class="title-border2 mr-4 pr-3"></span><?php echo $texto1; ?> <a href="https://coeurmkt.com/">Coeur<span class="title-border2 ml-4 pl-3"></span></a>
                     </div>
                 </div>
                 <!-- end row -->
