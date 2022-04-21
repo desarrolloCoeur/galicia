@@ -91,11 +91,11 @@ $texto26 = "Plusvalía - Ubicación Estratégica - Amenidades - Crecimiento de l
                 <!-- end row -->
 
                 <div class="row amenidades">
-                    <div clas="col-6 col-lg-6 col-md-6">
+                    <div clas="col-12 col-lg-6 col-md-6">
                         <img class="img-fluid" style="width: 380px;" src="images/La Coruña.jpg" alt="">
                     </div>
-                    <div class="col-6 col-lg-6 col-md-6">
-                        <div class="card" style="width: 30rem;">
+                    <div class="col-12 col-lg-6 col-md-6">
+                        <div class="card">
                             <div class="card-body" style="background-color: #344582;">
                                 <h5 class="card-title disfruta"><?php echo $texto13; ?></h5>
                                 <h6 class="card-subtitle mb-2 descrip-disfrutas"><?php echo $texto14; ?></h6>

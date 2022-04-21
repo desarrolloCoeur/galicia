@@ -1213,4 +1213,9 @@ h1, h2, h3, h4, h5, h6 {
 .my-float{
 	margin-top:16px;
 }
+@media (max-width: 768px) {
+  .text-proyect {
+    font-size: 1.1rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
