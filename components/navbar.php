@@ -1,5 +1,5 @@
 <!--navbar start-->
-<nav class="navbar navbar-expand-lg fixed-top navbar-dark sticky">
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark nav-sticky">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo-blanco.png" alt="" class="logo-light" height="80" />
@@ -11,9 +11,6 @@
 
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#home">Inicio</a>
-                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#about">Proyecto</a>
                         </li>
