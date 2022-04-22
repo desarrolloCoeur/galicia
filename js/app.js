@@ -23,7 +23,12 @@ $(".navbar-nav").scrollspy({
     offset: 70
 });
   
-
+$(window).on('load', function(){
+    if ($(".preloader").length > 0)
+    {
+        $(".preloader").delay(800).fadeOut("slow");
+    }
+});
 
 // STICKY BUTTON
 $(window).scroll(function() {
