@@ -17,6 +17,16 @@ $('.nav-item a, .mouse-down a').on('click', function(event) {
     event.preventDefault();
 });
 
+window.onresize = function (){
+    calcula_tammanos();
+}
+
+function calcula_tammanos() {
+    if ($(".hero-1").height()<$(".hero-1 video").height()) {
+        const valor = ($(".hero-1 video").height()-$(".hero-1").height())/2;
+        $(".hero-1 video").css("margin-top","-"+valor+"px");
+    }
+}
 
 // scrollspy
 $(".navbar-nav").scrollspy({

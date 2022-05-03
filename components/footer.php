@@ -16,7 +16,9 @@ $texto1 = "Creado por";
                     </div>
                     <div class="col-lg-3 col-md-3 offset-lg-1 offset-md-1 text-white mt-5">
                         <p class="mb-0">contacto@galiciaresidencial.com</p>
-                        <p class="mt-0">Tel: (311)141 7959</p>
+                        <p class="mb-0">Tel: (311) 141 7959</p>
+                        <p class="mb-0">Tel: (327) 978 2012</p>
+                        <p class="mb-0">Tel: (327) 108 9486</p>
                     </div>
                     <div class="col-lg-3 col-md-4 offset-lg-1 offset-md-1 mt-5 text-center">
                         <ul class="list-unstyled">
@@ -36,6 +38,7 @@ $texto1 = "Creado por";
         <!-- end footer -->
 
         <!-- footer-alter start -->
+        <!-- 
         <section class="py-3" style="background-color: #ffffff;">
             <div class="container">
                 <div class="row">
@@ -45,8 +48,8 @@ $texto1 = "Creado por";
                     <div class="col-lg-4 offset-lg-4 col-md-6 text-md-right">
                         <p class="text-blue mb-0"><span class="title-border2 mr-4 pr-3"></span><?php echo $texto1; ?> <a href="https://coeurmkt.com/">Coeur<span class="title-border2 ml-4 pl-3"></span></a>
                     </div>
-                </div>
-                <!-- end row -->
+                </div>0
             </div>
         </section>
+        end row -->
         <!-- end footer alter -->
