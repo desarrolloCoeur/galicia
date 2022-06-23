@@ -40,6 +40,12 @@ $(window).on('load', function(){
     }
 });
 
+$(".modal-backdrop").on('click', function () {
+    $('#exampleModal').remove();
+});
+
+let muestra_una_vez = true;
+
 // STICKY BUTTON
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
@@ -47,6 +53,16 @@ $(window).scroll(function() {
         $(".nav-btn").addClass("active");
     } else {
         $(".nav-btn").removeClass("active");
+    }
+    if (scroll >= 670) {
+        var element =  document.getElementById('exampleModal');
+        if ((typeof(element) != 'undefined' && element != null) && muestra_una_vez)
+        {
+            click_event = new CustomEvent('click');
+            btn_element = document.querySelector('#anuncio_de_modal');
+            btn_element.dispatchEvent(click_event);
+            muestra_una_vez = false;
+        }
     }
 });
 

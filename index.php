@@ -6,9 +6,9 @@ require_once("components/banner-index.php");
 $texto1 = "El Proyecto";
 $texto2 = "Desarrollo ubicado sobre la carretera federal 200, ";
 $texto3 = "en el km 38 Tepic - Puerto Vallarta, ";
-$texto4 = "a un costado de la entrada principal a la carretera Compostela - Guadalajara que contará con 290 terrenos de 90 m2 y las mejores amenidades ofreciendo una ";
+$texto4 = "a un costado de la entrada principal a la carretera Compostela - Guadalajara que contará con 290 terrenos desde 90 m2 y las mejores amenidades ofreciendo una ";
 $texto5 = "excelente calidad de vida.";
-$texto6 = "Terrenos de 90 m2 ";
+$texto6 = "Terrenos desde 90 m2 ";
 $texto7 = "Precios";
 $texto8 = "1 mes";
 $texto9 = "3 meses";
@@ -28,7 +28,7 @@ $texto22 = "Juegos Infantiles";
 $texto23 = "";
 $texto24 = "Ubicación";
 $texto25 = "¿Por qué invertir en Galicia Dkmrgo Residencial?";
-$texto26 = "Plusvalía - Ubicación Estratégica - Amenidades - Crecimiento de la zona.";
+$texto26 = "Plusvalía - Ubicación - Amenidades - Privacidad - Exclusividad";
 $useragent=$_SERVER['HTTP_USER_AGENT'];
 if (stripos( $useragent, 'Chrome') !== false) {
     $overlay = '<div class="bg-overlay-2"></div>';
@@ -67,19 +67,17 @@ if (stripos( $useragent, 'Chrome') !== false) {
                             </div>
                         </div>
 
-                        <div class="col-12 col-lg-6 col-md-6 mt-4 pt-5 text-center" data-aos="fade-left">
-                            <p class="terrenos">
-                                <strong><?php echo $texto6; ?> <br> <?php echo $texto7; ?></strong>
-                            </p>
-                            <p class="precios">
-                            <?php echo $texto8; ?> - $270,000 <br>
-                            <?php echo $texto9; ?> - $285,000 <br>
-                            <?php echo $texto10; ?> - $300,000 
-                            </p>
-                            <p class="cambios"><?php echo $texto11; ?></p>
-                            <div class="row">
-                                <div class="col-6 col-lg-12 col-sm-12 pt-xl-3 pt-3">
-                                </div>
+                        <div class="col-12 col-lg-6 col-md-6 mt-4 pt-5 text-center" style="display:flex;" data-aos="fade-left">
+                            <div style="margin: auto;padding-bottom: 81px;">
+                                <p class="terrenos">
+                                    <strong><?php echo $texto6; ?> <br> <?php echo $texto7; ?></strong>
+                                </p>
+                                <p class="precios">
+                                <?php echo $texto8; ?> - $270,000 <br>
+                                <?php echo $texto9; ?> - $285,000 <br>
+                                <?php echo $texto10; ?> - $300,000 
+                                </p>
+                                <p class="cambios"><?php echo $texto11; ?></p>
                             </div>
                         </div>
                     </div>
@@ -93,15 +91,19 @@ if (stripos( $useragent, 'Chrome') !== false) {
             <div class="container" style=";">
                 <div class="row">
                     <div class="col-12 mb-4" data-aos="fade-up">
-                        <h2 class="mb-0 title titulo tit-2"><span class="title-border mr-4 pr-3"></span><span><?php echo $texto12; ?></span><span class="title-border ml-4 pl-3"></span></h2>
+                        <h2 class="mb-0 title titulo tit-2">
+                            <span class="title-border mr-4 pr-3"></span>
+                            <span style="margin: 0 25px;"><?php echo $texto12; ?></span>
+                            <span class="title-border ml-4 pl-3"></span>
+                        </h2>
                     </div>
                 </div>
                 <!-- end row -->
                 <div class="row amenidades">
-                    <div class="col-12 col-lg-6 col-md-6 visually2" data-aos="fade-up">
-                        <img class="img-fluid" style="width: 380px;" src="images/amenidades.JPG" alt="">
+                    <div class="col-12 col-lg-8 col-md-8 visually2" data-aos="fade-up">
+                        <img class="img-fluid" src="images/amenidades.png" alt="">
                     </div>
-                    <div class="col-12 col-lg-6 col-md-6" data-aos="fade-up">
+                    <div class="col-12 col-lg-4 col-md-4" data-aos="fade-up">
                         <div class="card">
                             <div class="card-body" style="background-color: #344582;">
                                 <h5 class="card-title disfruta"><?php echo $texto13; ?></h5>
@@ -141,8 +143,8 @@ if (stripos( $useragent, 'Chrome') !== false) {
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6 col-md-6 visually1" data-aos="fade-up">
-                        <img class="img-fluid" style="width: 380px;" src="images/amenidades.JPG" alt="">
+                    <div class="col-12 col-lg-8 col-md-8 visually1" data-aos="fade-up">
+                        <img class="img-fluid" src="images/amenidades.png" alt="">
                     </div>
                 </div>
                 <!-- <div class="">
@@ -169,7 +171,7 @@ if (stripos( $useragent, 'Chrome') !== false) {
                     <div class="row">
                         <div class="col-12 col-lg-6 col-md-6 col-sm-12">
                             <div id="modulo_descripcion">
-                                <div class="titulo_modulo" >
+                                <div class="titulo_modulo hidden-sm" >
                                     MODELOS
                                 </div>
                                 <div class="cont">
@@ -180,8 +182,10 @@ if (stripos( $useragent, 'Chrome') !== false) {
                                     <div class="elemt">3 RECÁMARAS</div>
                                     <div class="elemt">2.5 BAÑOS</div>
                                     <div class="elemt">SALA</div>
+                                    <div class="elemt">COCINA</div>
                                     <div class="elemt">COMEDOR</div>
-                                    <div class="elemt">JARDIN</div>
+                                    <div class="elemt">JARDIN INTERIOR</div>
+                                    <div class="elemt">JARDIN EXTERIOR</div>
                                     <div class="elemt">BALCON</div>
                                     <div class="elemt">COCHERA 1 AUTO</div>
                                     <div class="elemt">2 PLANTAS</div>
@@ -195,15 +199,16 @@ if (stripos( $useragent, 'Chrome') !== false) {
                             <div id="modelos_c" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <div class="bg-carrusel" style="background: url('images/modelos/coruna.JPG');background-size: 100%;"></div>
+                                        <div class="bg-carrusel" style="background: url('images/modelos/modelo_castilla.JPG');background-size: 100%;">
+                                        </div>
                                         <?php echo $overlay; ?>
                                         <div class="bg-azul">
                                             <div class="titulo_modulo">
-                                                La coruña
+                                                Modelo Castilla
                                             </div>
                                         </div>
                                         <div class="contenedor-imagen">
-                                            <img src="images\modelos\coruna.JPG" class="d-block w-100" alt="Galicia Residencial">
+                                            <img src="images\modelos\modelo_castilla.JPG" class="d-block w-100" alt="Galicia Residencial">
                                         </div>
                                     </div>
                                     <div class="carousel-item">
@@ -220,16 +225,15 @@ if (stripos( $useragent, 'Chrome') !== false) {
                                         </div>
                                     </div>
                                     <div class="carousel-item">
-                                        <div class="bg-carrusel" style="background: url('images/modelos/modelo_castilla.JPG');background-size: 100%;">
-                                        </div>
+                                        <div class="bg-carrusel" style="background: url('images/modelos/coruna.JPG');background-size: 100%;"></div>
                                         <?php echo $overlay; ?>
                                         <div class="bg-azul">
                                             <div class="titulo_modulo">
-                                                Modelo Castilla
+                                                La coruña
                                             </div>
                                         </div>
                                         <div class="contenedor-imagen">
-                                            <img src="images\modelos\modelo_castilla.JPG" class="d-block w-100" alt="Galicia Residencial">
+                                            <img src="images\modelos\coruna.JPG" class="d-block w-100" alt="Galicia Residencial">
                                         </div>
                                     </div>
                                 </div>
@@ -323,10 +327,17 @@ if (stripos( $useragent, 'Chrome') !== false) {
 
          <!-- WhatsApp -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-        <a href="https://wa.me/3111417959" class="float" target="_blank">
+        <a href="https://wa.me/523111417959" class="float" target="_blank">
         <i class="fa fa-whatsapp my-float"></i>
         </a>
-  
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onClick="$('#exampleModal').remove()"></button>
+                    <img class="img-fluid" src="images/promocion-galicia.jpg" alt="">
+                </div>
+            </div>
+        </div>
 <?php
 require_once("components/contacto.php");
 require_once("components/footer.php");

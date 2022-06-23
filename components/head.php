@@ -3,13 +3,22 @@
     <head>
         <meta charset="utf-8" />
         <title>Galicia Residencial</title>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-228633773-1">
+        </script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-228633773-1');
+        </script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="" />
+        <meta name="description" content="Desarrollo ubicado sobre la carretera federal 200, en el km 38 Tepic - Puerto Vallarta a un costado de la entrada principal a la carretera Compostela..." />
         <meta name="keywords" content="galicia, recidencial, compostela" />
-        <meta content="Themesdesign" name="author" />
+        <meta content="Oscar Betancourt" name="author" />
         <meta property="og:site_name" content="Galicia Residencial" />
-        <meta name="og:description" content="" />
-        <meta property="og:image" itemprop="image" content="https://coeurmkt.com/galicia/images/.jpg"/>
+        <meta name="og:description" content="Desarrollo ubicado sobre la carretera federal 200, en el km 38 Tepic - Puerto Vallarta a un costado de la entrada principal a la carretera Compostela" />
+        <meta property="og:image" itemprop="image" content="https://galiciaresidencial.com/images/separador.png"/>
         <meta property="og:type" content="website" />
         <meta property="og:updated_time" content="1440432930" /> 
 

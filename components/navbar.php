@@ -28,9 +28,14 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#contact">Contacto</a>
                         </li>
+                        <li class="nav-item" style="display:none;">
+                            <a id="anuncio_de_modal" class="nav-link" href="" data-bs-toggle="modal" data-bs-target="#exampleModal">Promocion</a>
+                        </li>
+                        <!--
                         <li class="nav-item">
                             <a class="nav-link" href=""><img style="width: 1.7em;" src="images/bandera.png" alt=""></a>
                         </li>
+                        -->
                         <li class="nav-item hidden-sm" style="transform: rotate(90deg);">
                             <span class="title-border" style="position: static;"></span>
                         </li>

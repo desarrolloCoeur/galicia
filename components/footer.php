@@ -23,11 +23,11 @@ $texto1 = "Creado por";
                     <div class="col-lg-3 col-md-4 offset-lg-1 offset-md-1 mt-5 text-center">
                         <ul class="list-unstyled">
                             <li class="list-inline d-inline-block social-list">
-                                <a class="list-inline-item rounded mr-2 social-link" href="https://www.facebook.com/FraccionamientoGalicia"><i class="ri-facebook-fill"></i></a>
+                                <a class="list-inline-item rounded mr-2 social-link" target="_blank" href="https://www.facebook.com/FraccionamientoGalicia"><i class="ri-facebook-fill"></i></a>
                             </li>
                            
                             <li class="list-inline d-inline-block social-list">
-                                <a class="list-inline-item rounded mr-2 social-link" href="https://www.instagram.com/galiciaresidencial4/"><i class="ri-instagram-fill"></i></a>
+                                <a class="list-inline-item rounded mr-2 social-link" target="_blank" href="https://www.instagram.com/galiciaresidencial4/"><i class="ri-instagram-fill"></i></a>
                             </li>
                         </ul>
                     </div>
